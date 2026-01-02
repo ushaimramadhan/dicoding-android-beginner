@@ -1,55 +1,61 @@
 <resources>
     <string name="app_name">MyApplication</string>
-    <string name="nama1">Python</string>
-    <string name="overview1">Diciptakan oleh Guido van Rossum (1991) - Peringkat #1 TIOBE.</string>
-    <string name="detail1">Python saat ini menduduki peringkat teratas dalam indeks TIOBE, menjadikannya bahasa pemrograman paling populer di dunia. Diciptakan oleh Guido van Rossum dan pertama kali dirilis pada tahun 1991, Python dikenal dengan filosofi desain yang menekankan keterbacaan kode yang luar biasa.
-
-Popularitas Python meledak dalam satu dekade terakhir berkat dominasinya di bidang Data Science, Kecerdasan Buatan (AI), dan Machine Learning. Banyak perusahaan raksasa seperti Google, NASA, dan Netflix menggunakan Python sebagai tulang punggung layanan mereka. Karena sintaksnya yang sederhana namun kemampuannya yang sangat luas, Python menjadi bahasa yang paling direkomendasikan bagi pemula maupun profesional.</string>
-    <string name="nama2">C++</string>
-    <string name="overview2">Diciptakan oleh Bjarne Stroustrup (1985) - Performa tinggi dan Object Oriented.</string>
-    <string name="detail2">C++ dikembangkan oleh Bjarne Stroustrup sebagai penyempurnaan dari bahasa C dengan penambahan fitur pemrograman berorientasi objek (OOP). Dalam indeks TIOBE, C++ secara konsisten berada di peringkat 3 besar, membuktikan relevansinya yang tak lekang oleh waktu.
-
-Kekuatan utama C++ terletak pada performanya yang sangat tinggi dan manajemen memori yang manual namun fleksibel. Bahasa ini adalah standar industri untuk pengembangan game engine (seperti Unreal Engine), aplikasi desktop berat (seperti Adobe Photoshop), dan sistem perdagangan frekuensi tinggi di pasar saham. C++ memberikan kontrol penuh kepada programmer atas sumber daya komputer.</string>
-    <string name="nama3">C</string>
-    <string name="overview3">Diciptakan oleh Dennis Ritchie (1972) - "Bapak" dari semua bahasa modern.</string>
-    <string name="detail3">Bahasa C adalah legenda hidup dalam dunia pemrograman. Diciptakan oleh Dennis Ritchie di Bell Labs pada tahun 1972, bahasa ini masih bertahan di posisi papan atas indeks TIOBE meskipun sudah berusia lebih dari setengah abad. C dikenal sebagai bahasa yang sangat efisien dan dekat dengan perangkat keras (hardware).
-
-Hampir semua sistem operasi modern, termasuk Windows, Linux, dan macOS, dibangun menggunakan kernel yang ditulis dalam bahasa C. Kecepatannya yang tak tertandingi membuatnya menjadi pilihan utama untuk pemrograman sistem, embedded system, dan perangkat IoT. Mempelajari C dianggap sebagai fondasi penting karena banyak bahasa modern (seperti C++, Java, dan Python) mengadopsi sintaks darinya.</string>
-    <string name="nama4">Java</string>
-    <string name="overview4">Diciptakan oleh James Gosling (1995) - "Write Once, Run Anywhere".</string>
-    <string name="detail4">Java adalah bahasa pemrograman yang dirilis oleh Sun Microsystems pada tahun 1995 dengan slogan legendaris "Write Once, Run Anywhere". Selama lebih dari dua dekade, Java selalu menjadi langganan 5 besar di indeks TIOBE. Keunggulan utamanya adalah portabilitas berkat adanya Java Virtual Machine (JVM).
-
-Java merupakan bahasa utama dalam pengembangan aplikasi Android sebelum adanya Kotlin, dan hingga kini masih mendominasi sistem backend perusahaan besar (Enterprise), perbankan, dan sistem terdistribusi. Ekosistemnya yang sangat matang, keamanan yang kuat, dan dukungan komunitas yang masif membuat Java tetap menjadi keterampilan wajib bagi banyak lowongan pekerjaan IT.</string>
-    <string name="nama5">C#</string>
-    <string name="overview5">Diciptakan oleh Microsoft (2000) - Andalan ekosistem .NET.</string>
-    <string name="detail5">C# (dibaca C-Sharp) adalah bahasa pemrograman modern yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif .NET mereka. Sejak diluncurkan pada tahun 2000, C# terus menanjak naik dalam indeks TIOBE dan menjadi pesaing utama Java di dunia korporat.
-
-Bahasa ini sangat serbaguna, digunakan untuk membangun aplikasi desktop Windows, aplikasi web melalui ASP.NET, hingga pengembangan game menggunakan Unity Engine. Dengan dukungan tools terbaik dari Visual Studio, C# menawarkan pengalaman pengembangan yang sangat produktif. Sintaksnya yang rapi dan fitur modern membuatnya sangat disukai oleh developer aplikasi bisnis maupun game developer indie.</string>
-    <string name="nama6">JavaScript</string>
-    <string name="overview6">Diciptakan oleh Brendan Eich (1995) - Bahasa wajib untuk Web.</string>
-    <string name="detail6">JavaScript adalah raja yang tak tergantikan di dunia pengembangan web. Diciptakan hanya dalam waktu 10 hari oleh Brendan Eich, bahasa ini kini menjadi nyawa dari interaktivitas internet. Menurut TIOBE dan survei developer lainnya, JavaScript adalah salah satu bahasa yang paling banyak digunakan di muka bumi.
-
-Awalnya hanya berjalan di browser (sisi klien), kini dengan adanya Node.js, JavaScript juga dapat berjalan di server (sisi backend). Kemampuannya untuk menangani "Full Stack Development" membuat bahasa ini sangat populer di kalangan startup. Hampir setiap website modern yang Anda kunjungi menggunakan JavaScript untuk menciptakan pengalaman pengguna yang dinamis.</string>
-    <string name="nama7">Visual Basic</string>
-    <string name="overview7">Diciptakan oleh Microsoft (1991) - Kemudahan untuk aplikasi Windows.</string>
-    <string name="detail7">Meskipun sering dianggap bahasa lawas, Visual Basic (terutama varian VB.NET) secara mengejutkan masih bertahan kokoh di 10 besar indeks TIOBE. Bahasa ini dirancang dengan satu tujuan utama: kemudahan penggunaan. Sintaksnya sangat mirip dengan bahasa Inggris manusia, membuatnya mudah dipahami oleh pemula sekalipun.
-
-Visual Basic masih banyak digunakan di lingkungan perkantoran untuk aplikasi internal perusahaan (Line of Business apps) dan otomatisasi makro pada Microsoft Office. Stabilitas dan kemudahan maintenance menjadi alasan mengapa banyak sistem legacy di dunia bisnis masih mempertahankan kode Visual Basic hingga hari ini.</string>
-    <string name="nama8">Go</string>
-    <string name="overview8">Diciptakan oleh Google (2009) - Simpel, Cepat, dan Konkuren.</string>
-    <string name="detail8">Go, atau sering disebut Golang, adalah bahasa pemrograman open source yang lahir dari raksasa teknologi Google. Diciptakan untuk mengatasi masalah kompleksitas pada infrastruktur Google yang masif, Go menawarkan sintaks yang sangat sederhana namun dengan performa mendekati C.
-
-Dalam beberapa tahun terakhir, peringkat Go di indeks TIOBE melesat naik seiring dengan tren Microservices dan Cloud Native Computing. Go sangat handal dalam menangani konkurensi (banyak proses sekaligus), membuatnya menjadi pilihan utama untuk membangun server backend modern, tools DevOps (seperti Docker dan Kubernetes), dan layanan cloud berskala besar.</string>
-    <string name="nama9">Delphi/Object Pascal</string>
-    <string name="overview9">Diciptakan oleh Borland (1995) - Raja Rapid Application Development (RAD).</string>
-    <string name="detail9">Delphi adalah bahasa pemrograman dan lingkungan pengembangan perangkat lunak (IDE) yang berbasis pada bahasa Object Pascal. Diluncurkan pertama kali oleh Borland pada tahun 1995, Delphi menjadi standar industri untuk pengembangan aplikasi desktop Windows berkat konsep Rapid Application Development (RAD). Konsep ini memungkinkan programmer membuat antarmuka pengguna (GUI) yang kompleks hanya dengan drag-and-drop, jauh sebelum bahasa lain bisa melakukannya dengan mudah.
-
-Meskipun sempat dianggap menurun popularitasnya, Delphi/Object Pascal kembali menanjak di indeks TIOBE. Hal ini karena kode Delphi terkenal sangat stabil, memiliki kecepatan kompilasi yang luar biasa cepat, dan menghasilkan satu file executable (.exe) tanpa ketergantungan library yang rumit. Banyak sistem krusial di rumah sakit, kasir supermarket, hingga sistem telekomunikasi yang dibangun 20 tahun lalu masih berjalan mulus menggunakan Delphi hingga hari ini. Menariknya, arsitek utama Delphi, Anders Hejlsberg, adalah sosok yang kemudian ditarik oleh Microsoft untuk menciptakan bahasa C#.</string>
-    <string name="nama10">SQL</string>
-    <string name="overview10">Diciptakan oleh IBM (1974) - Standar komunikasi Database.</string>
-    <string name="detail10">SQL (Structured Query Language) adalah bahasa standar untuk mengelola dan memanipulasi basis data (database). Meskipun bukan bahasa pemrograman umum seperti Python atau Java, TIOBE sering memasukkannya ke dalam daftar elit karena penggunaannya yang sangat masif di industri.
-
-Setiap aplikasi, mulai dari media sosial hingga aplikasi perbankan, pasti membutuhkan penyimpanan data, dan SQL adalah jembatan untuk mengambil data tersebut. Kemampuan untuk menulis query SQL yang efisien adalah keterampilan fundamental yang wajib dimiliki oleh Backend Developer, Data Analyst, dan Data Scientist. Tanpa SQL, data dunia digital tidak akan bisa diolah.</string>
     <string name="nama_profile">Ushaim Ramadhan Fadhlurrahman</string>
     <string name="email_profile">adandannn890@gmail.com</string>
+    <string-array name="data_name">
+        <item>Python</item>
+        <item>C++</item>
+        <item>C</item>
+        <item>Java</item>
+        <item>C#</item>
+        <item>JavaScript</item>
+        <item>Visual Basic</item>
+        <item>Go</item>
+        <item>Delphi/Object Pascal</item>
+        <item>SQL</item>
+    </string-array>
+    <string-array name="name_description">
+        <item>Diciptakan oleh Guido van Rossum (1991) - Peringkat #1 TIOBE.</item>
+        <item>Diciptakan oleh Bjarne Stroustrup (1985) - Performa tinggi dan Object Oriented.</item>
+        <item>Diciptakan oleh Dennis Ritchie (1972) - "Bapak" dari semua bahasa modern.</item>
+        <item>Diciptakan oleh James Gosling (1995) - "Write Once, Run Anywhere".</item>
+        <item>Diciptakan oleh Microsoft (2000) - Andalan ekosistem .NET.</item>
+        <item>Diciptakan oleh Brendan Eich (1995) - Bahasa wajib untuk Web.</item>
+        <item>Diciptakan oleh Microsoft (1991) - Kemudahan untuk aplikasi Windows.</item>
+        <item>Diciptakan oleh Google (2009) - Simpel, Cepat, dan Konkuren.</item>
+        <item>Diciptakan oleh Borland (1995) - Raja Rapid Application Development (RAD).</item>
+        <item>Diciptakan oleh IBM (1974) - Standar komunikasi Database.</item>
+    </string-array>
+    <string-array name="name_detail">
+        <item>Python saat ini menduduki peringkat teratas dalam indeks TIOBE, menjadikannya bahasa pemrograman paling populer di dunia. Diciptakan oleh Guido van Rossum dan pertama kali dirilis pada tahun 1991, Python dikenal dengan filosofi desain yang menekankan keterbacaan kode yang luar biasa.
+
+            Popularitas Python meledak dalam satu dekade terakhir berkat dominasinya di bidang Data Science, Kecerdasan Buatan (AI), dan Machine Learning. Banyak perusahaan raksasa seperti Google, NASA, dan Netflix menggunakan Python sebagai tulang punggung layanan mereka. Karena sintaksnya yang sederhana namun kemampuannya yang sangat luas, Python menjadi bahasa yang paling direkomendasikan bagi pemula maupun profesional.</item>
+        <item>C++ dikembangkan oleh Bjarne Stroustrup sebagai penyempurnaan dari bahasa C dengan penambahan fitur pemrograman berorientasi objek (OOP). Dalam indeks TIOBE, C++ secara konsisten berada di peringkat 3 besar, membuktikan relevansinya yang tak lekang oleh waktu.
+
+            Kekuatan utama C++ terletak pada performanya yang sangat tinggi dan manajemen memori yang manual namun fleksibel. Bahasa ini adalah standar industri untuk pengembangan game engine (seperti Unreal Engine), aplikasi desktop berat (seperti Adobe Photoshop), dan sistem perdagangan frekuensi tinggi di pasar saham. C++ memberikan kontrol penuh kepada programmer atas sumber daya komputer.</item>
+        <item>Bahasa C adalah legenda hidup dalam dunia pemrograman. Diciptakan oleh Dennis Ritchie di Bell Labs pada tahun 1972, bahasa ini masih bertahan di posisi papan atas indeks TIOBE meskipun sudah berusia lebih dari setengah abad. C dikenal sebagai bahasa yang sangat efisien dan dekat dengan perangkat keras (hardware).
+
+            Hampir semua sistem operasi modern, termasuk Windows, Linux, dan macOS, dibangun menggunakan kernel yang ditulis dalam bahasa C. Kecepatannya yang tak tertandingi membuatnya menjadi pilihan utama untuk pemrograman sistem, embedded system, dan perangkat IoT. Mempelajari C dianggap sebagai fondasi penting karena banyak bahasa modern (seperti C++, Java, dan Python) mengadopsi sintaks darinya.</item>
+        <item>Java adalah bahasa pemrograman yang dirilis oleh Sun Microsystems pada tahun 1995 dengan slogan legendaris "Write Once, Run Anywhere". Selama lebih dari dua dekade, Java selalu menjadi langganan 5 besar di indeks TIOBE. Keunggulan utamanya adalah portabilitas berkat adanya Java Virtual Machine (JVM).
+
+            Java merupakan bahasa utama dalam pengembangan aplikasi Android sebelum adanya Kotlin, dan hingga kini masih mendominasi sistem backend perusahaan besar (Enterprise), perbankan, dan sistem terdistribusi. Ekosistemnya yang sangat matang, keamanan yang kuat, dan dukungan komunitas yang masif membuat Java tetap menjadi keterampilan wajib bagi banyak lowongan pekerjaan IT.</item>
+        <item>C# (dibaca C-Sharp) adalah bahasa pemrograman modern yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif .NET mereka. Sejak diluncurkan pada tahun 2000, C# terus menanjak naik dalam indeks TIOBE dan menjadi pesaing utama Java di dunia korporat.
+
+            Bahasa ini sangat serbaguna, digunakan untuk membangun aplikasi desktop Windows, aplikasi web melalui ASP.NET, hingga pengembangan game menggunakan Unity Engine. Dengan dukungan tools terbaik dari Visual Studio, C# menawarkan pengalaman pengembangan yang sangat produktif. Sintaksnya yang rapi dan fitur modern membuatnya sangat disukai oleh developer aplikasi bisnis maupun game developer indie.</item>
+        <item>JavaScript adalah raja yang tak tergantikan di dunia pengembangan web. Diciptakan hanya dalam waktu 10 hari oleh Brendan Eich, bahasa ini kini menjadi nyawa dari interaktivitas internet. Menurut TIOBE dan survei developer lainnya, JavaScript adalah salah satu bahasa yang paling banyak digunakan di muka bumi.
+
+            Awalnya hanya berjalan di browser (sisi klien), kini dengan adanya Node.js, JavaScript juga dapat berjalan di server (sisi backend). Kemampuannya untuk menangani "Full Stack Development" membuat bahasa ini sangat populer di kalangan startup. Hampir setiap website modern yang Anda kunjungi menggunakan JavaScript untuk menciptakan pengalaman pengguna yang dinamis.</item>
+        <item>Meskipun sering dianggap bahasa lawas, Visual Basic (terutama varian VB.NET) secara mengejutkan masih bertahan kokoh di 10 besar indeks TIOBE. Bahasa ini dirancang dengan satu tujuan utama: kemudahan penggunaan. Sintaksnya sangat mirip dengan bahasa Inggris manusia, membuatnya mudah dipahami oleh pemula sekalipun.
+
+            Visual Basic masih banyak digunakan di lingkungan perkantoran untuk aplikasi internal perusahaan (Line of Business apps) dan otomatisasi makro pada Microsoft Office. Stabilitas dan kemudahan maintenance menjadi alasan mengapa banyak sistem legacy di dunia bisnis masih mempertahankan kode Visual Basic hingga hari ini.</item>
+        <item>Go, atau sering disebut Golang, adalah bahasa pemrograman open source yang lahir dari raksasa teknologi Google. Diciptakan untuk mengatasi masalah kompleksitas pada infrastruktur Google yang masif, Go menawarkan sintaks yang sangat sederhana namun dengan performa mendekati C.
+
+            Dalam beberapa tahun terakhir, peringkat Go di indeks TIOBE melesat naik seiring dengan tren Microservices dan Cloud Native Computing. Go sangat handal dalam menangani konkurensi (banyak proses sekaligus), membuatnya menjadi pilihan utama untuk membangun server backend modern, tools DevOps (seperti Docker dan Kubernetes), dan layanan cloud berskala besar.</item>
+        <item>Delphi adalah bahasa pemrograman dan lingkungan pengembangan perangkat lunak (IDE) yang berbasis pada bahasa Object Pascal. Diluncurkan pertama kali oleh Borland pada tahun 1995, Delphi menjadi standar industri untuk pengembangan aplikasi desktop Windows berkat konsep Rapid Application Development (RAD). Konsep ini memungkinkan programmer membuat antarmuka pengguna (GUI) yang kompleks hanya dengan drag-and-drop, jauh sebelum bahasa lain bisa melakukannya dengan mudah.
+
+            Meskipun sempat dianggap menurun popularitasnya, Delphi/Object Pascal kembali menanjak di indeks TIOBE. Hal ini karena kode Delphi terkenal sangat stabil, memiliki kecepatan kompilasi yang luar biasa cepat, dan menghasilkan satu file executable (.exe) tanpa ketergantungan library yang rumit. Banyak sistem krusial di rumah sakit, kasir supermarket, hingga sistem telekomunikasi yang dibangun 20 tahun lalu masih berjalan mulus menggunakan Delphi hingga hari ini. Menariknya, arsitek utama Delphi, Anders Hejlsberg, adalah sosok yang kemudian ditarik oleh Microsoft untuk menciptakan bahasa C#.</item>
+        <item>PHP adalah bahasa scripting server-side yang dirancang khusus untuk pengembangan web. Meskipun sering mendapat kritik, fakta TIOBE menunjukkan bahwa PHP tetap menjadi salah satu bahasa yang paling relevan. Statistik menunjukkan bahwa hampir 80% website di internet, termasuk platform raksasa seperti Facebook dan WordPress, dibangun menggunakan PHP.
+
+            Kelebihan utama PHP adalah kemudahannya untuk di-deploy dan banyaknya penyedia hosting yang mendukungnya secara native. Dengan hadirnya framework modern seperti Laravel, PHP kini menjadi bahasa yang sangat powerful, cepat, dan elegan untuk membangun aplikasi web modern, menjadikannya pilihan favorit bagi freelancer dan web agency.</item>
+    </string-array>
 </resources>

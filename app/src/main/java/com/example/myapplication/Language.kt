@@ -7,5 +7,6 @@ import kotlinx.android.parcel.Parcelize
 data class Language(
     val name: String,
     val description: String,
+    val detail: String,
     val photo: Int
 ) : Parcelable
