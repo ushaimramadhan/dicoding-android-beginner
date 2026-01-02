@@ -58,4 +58,16 @@
 
             Kelebihan utama PHP adalah kemudahannya untuk di-deploy dan banyaknya penyedia hosting yang mendukungnya secara native. Dengan hadirnya framework modern seperti Laravel, PHP kini menjadi bahasa yang sangat powerful, cepat, dan elegan untuk membangun aplikasi web modern, menjadikannya pilihan favorit bagi freelancer dan web agency.</item>
     </string-array>
+    <array name="data_photo">
+        <item>@drawable/python</item>
+        <item>@drawable/c_plus_plus</item>
+        <item>@drawable/c</item>
+        <item>@drawable/java</item>
+        <item>@drawable/c_sharp</item>
+        <item>@drawable/js</item>
+        <item>@drawable/vb</item>
+        <item>@drawable/go</item>
+        <item>@drawable/delphi</item>
+        <item>@drawable/sql</item>
+    </array>
 </resources>
