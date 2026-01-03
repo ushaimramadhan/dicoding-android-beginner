@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -46,9 +47,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvLanguages.layoutManager = LinearLayoutManager(this)
-
         val listLanguageAdapter = ListLanguageAdapter(list)
-
         rvLanguages.adapter = listLanguageAdapter
+
+        listLanguageAdapter.setOnItemClickCallback(object : ListLanguageAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Language) {
+                showSelectedLanguage(data)
+            }
+        })
+    }
+
+    private fun showSelectedLanguage(language: Language) {
+        val moveWithObjectIntent = Intent(this@MainActivity, DetailActivity::class.java)
+        moveWithObjectIntent.putExtra(DetailActivity.EXTRA_LANGUAGE, language)
+        startActivity(moveWithObjectIntent)
     }
 }
