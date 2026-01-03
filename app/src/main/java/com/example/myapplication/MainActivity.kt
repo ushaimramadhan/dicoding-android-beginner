@@ -2,6 +2,8 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.title = "Top 10 Language"
 
         rvLanguages = findViewById(R.id.rv_languages)
         rvLanguages.setHasFixedSize(true)
@@ -61,5 +64,20 @@ class MainActivity : AppCompatActivity() {
         val moveWithObjectIntent = Intent(this@MainActivity, DetailActivity::class.java)
         moveWithObjectIntent.putExtra(DetailActivity.EXTRA_LANGUAGE, language)
         startActivity(moveWithObjectIntent)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.about_page -> {
+                val moveIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(moveIntent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
